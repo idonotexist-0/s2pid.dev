@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev.wtf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div-parent-a" id="Main">
+        <!-- Tools go here -->
+        <div class="div-child" id="left-nav">
+            <div class="div-logo" id="div-logo">
+                <p class="logo" id="logo">
+                    Dev.wtf
+                </p>
+            </div>
+            <div class="div-new-section" id="div-new-section">
+                <button class="new-section" id="new-section">
+                    Add Course
+                </button>
+            </div>
+            <div class="div-settings" id="settings">
+                <button class="dark-mode" id="dark-mode" onclick="toggleDarkMode()">
+                    Light Mode
+                </button>
+                <button class="logout" id="logout">
+                    Log Out
+                </button>
+            </div>
+        </div>
+        <!-- Content goes here -->
+        <div class="div-child" id="main">
+            <div class="div-content" id="div-content">
+                <p class="text-header-a" id="headertext">
+                    Learn to Code <br>
+                    With <mark class="marker" id="marker"> dev.wtf</mark> web developer site.
+                </p>
+                <div class="div-main-content" id="div-main-content">
+                    <button class="content-a-header" id="content-a-header" onclick="typeWriter()">
+                        HTML
+                    </button>
+                    <p class="content-a" id="content-a"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
