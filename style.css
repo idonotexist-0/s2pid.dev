@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header box which include logo; links to the home index page */
+.root-header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    top: 0;
+    background-color: rgba(22, 27, 34, 1);
+    backdrop-filter: blur(8px);
+}
+
+/* change links colors in header div */
+.root-header a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: rgb(128, 128, 128);
+}
+
+/* BODY */
+.root-body {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* desc */
+.cnt-desc {
+    margin-bottom: 8px;
+    text-align: center;
+    width: 100%;
+    background-color: #BDBDCB;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cnt-desc-header {
+    font-size: 48px;
+}
+
+.cnt-desc-para {
+    font-size: 32px;
+}
+
+/* html, css */
+.cnt-box {
+    margin: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161B22;
+    border: 1px solid #696969;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cnt-box:last-child {
+margin: 8px 24px 16px 24px;
+}
+
+.cnt-header {
+    margin: 32px 0 0 0;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cnt-para {
+    font-size: 24px;
+}
+
+.cnt-link {
+    margin: 16px 0 32px 0;
+    padding: 8px;
+    background-color: #ffffff;
+    color: #2B2738;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.cnt-link:hover {
+    background: #000;
+    color: #ffffff;
+}
+
+/* .root-footer {} */
