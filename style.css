@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #000;
 }
 
 /* header box which include logo; links to the home index page */
