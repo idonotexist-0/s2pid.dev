@@ -11,17 +11,18 @@
     <link rel="shortcut icon" href="assets/favicon-brain.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Source+Sans+Pro:wght@400;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <section class="root-header" id="header">
-            <a href="index.html">
-                <i class="fa-solid fa-code"></i>
-                .dev
-            </a>
-    </section>
-    <section class="root-body">
+    <header class="root-header" id="header">
+        <a href="index.html" id="header_a">
+            <i class="fa-solid fa-code"></i>.dev
+        </a>
+    </header>
+    <main class="root-body">
         <div class="cnt-desc">
             <p class="cnt-desc-header">
                 Learn To Code
@@ -30,41 +31,44 @@
                 Don't Know Where To Begin?
             </p>
         </div>
-        <div class="cnt-html cnt-box">
-            <p class="cnt-header">
-                HTML
-            </p>
-            <p class="cnt-para">
-                The language for building web pages
-            </p>
-            <a href="index-html.html" class="cnt-link">
-                Learn HTML
-            </a>
+        <div class="cnt">
+            <div class="cnt-html cnt-box">
+                <p class="cnt-header-html cnt-header">
+                    <i class="fa-brands fa-html5"></i> HTML
+                </p>
+                <p class="cnt-para">
+                    The language for building web pages
+                </p>
+                <a href="index-html.html" class="cnt-link-html cnt-link">
+                    Learn HTML
+                </a>
+            </div>
+            <div class="cnt-css cnt-box">
+                <p class="cnt-header-css cnt-header">
+                    <i class="fa-brands fa-css3-alt"></i> CSS
+                </p>
+                <p class="cnt-para">
+                    The language for styling web pages
+                </p>
+                <a href="index-css.html" class="cnt-link-css cnt-link">
+                    Learn CSS
+                </a>
+            </div>
+            <div class="cnt-js cnt-box">
+                <p class="cnt-header-js cnt-header">
+                    <i class="fa-brands fa-js"></i> Javascript
+                </p>
+                <p class="cnt-para">
+                    The language for programming web pages
+                </p>
+                <a href="index-js.html" class="cnt-link-js cnt-link">
+                    Learn JS
+                </a>
+            </div>
         </div>
-        <div class="cnt-css cnt-box">
-            <p class="cnt-header">
-                CSS
-            </p>
-            <p class="cnt-para">
-                The language for styling web pages
-            </p>
-            <a href="index-css.html" class="cnt-link">
-                Learn CSS
-            </a>
-        </div>
-        <div class="cnt-js cnt-box">
-            <p class="cnt-header">
-                JS
-            </p>
-            <p class="cnt-para">
-                The language for programming web pages
-            </p>
-            <a href="index-js.html" class="cnt-link">
-                Learn JS
-            </a>
-        </div>
-    </section>
-    <section class="root-footer"></section>
+
+    </main>
+    <footer class="root-footer"></footer>
 
     <!-- This code add javascript to website -->
     <script src="function.js"></script>
